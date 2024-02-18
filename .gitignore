@@ -1,0 +1,9 @@
+node_modules
+package-lock.json
+cypress/reports
+cypress/downloads
+*.log
+package-lock.json
+.DS_Store
+.vscode
+yarn.lock
