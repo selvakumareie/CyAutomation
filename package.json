@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "cypress": "^13.6.3",
+    "cypress-multi-reporters": "^1.6.3",
+    "cypress-mochawesome-reporter": "^3.6.1"
+  },
+  "scripts": {
+    "test" : "npm run cy-run-specs --specpath=cypress/e2e/sample",
+    "cy-run-specs": "cypress run --spec %npm_config_specpath%\"/**/*.js\" || cypress run --spec $npm_config_specpath\"/**/*.js\""
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/selvakumareie/CyAutomationKV.git"
+  },
+  "keywords": [
+    "Cypress",
+    "End",
+    "to",
+    "End",
+    "Test",
+    "Integration",
+    "Test"
+  ],
+  "author": "Selva Kumar",
+  "license": "ISC"
+}
